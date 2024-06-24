@@ -1,6 +1,10 @@
 "https://medium.com/@luishrsoares/list/mastering-rust-programming-06763d788b6e"
 
+"https://web3.career/learn-web3/top-rust-open-source-projects"
+
 "https://eleftheriabatsou.medium.com/"
+
+
 
 "https://medium.com/rustaceans"
 
