@@ -4,5 +4,5 @@
 
 "https://medium.com/rustaceans"
 
-Note: Use https://freedium.cfd/ to overcome from subscriptions {Copy the above link and paste to the freedium website}
+Note: Use "https://freedium.cfd/"  to overcome from subscriptions {Copy the above link and paste to the freedium website}
 Happy learning "
