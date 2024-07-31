@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, Rusty Aditya!");
+    println!("Hello, Rusty Devs!");
 }
