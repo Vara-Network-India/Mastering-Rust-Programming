@@ -16,7 +16,7 @@ fn main() {
 
     //2) Tuples is a collection of values of different types
     // Here you ca define specific type but without that It'll work too
-    let human: (&str, i32, bool) = ("Alice", 30, false); 
+    let _human: (&str, i32, bool) = ("Alice", 30, false); 
 
     // OR
 
@@ -56,9 +56,4 @@ fn main() {
     let string: String = String::from("Hello world!");
     let slice: &str = &string[6..11];
     println!("Slice Value: {}", slice);
-
-
-
-
-
 }

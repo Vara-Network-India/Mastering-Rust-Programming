@@ -9,6 +9,9 @@
 // i8, i16, i32, i64, i128: Signed integers.
 // u8, u16, u32, u64, u128: Unsigned integers.
 
+// u32-> Unsigned integers can only represent positive numbers)  0 to 4294967295
+// i32 -> Assigned integers represent both positive and negative Range: -2147483648 to 2147483647
+
 fn main() {
     let x: i32 = -41;
     let y: u64 = 100;
