@@ -3,9 +3,6 @@
 // an function / variables should be written in snake case
 // snake case: hello_world
 // kebab case: hello-world
-
-
-
 // Hoisiting - can call functions anywhere in your code
 fn main(){
     hello_world();
@@ -29,15 +26,18 @@ fn main(){
         _inc_number += 4; // Increment the number
     }
     println!("My result is: {}", _inc_number);
+    
+    //Passing the BMI function
+    let weight_kg: f64 = 58.0;
+    let height_cm: f64 = 1.67;
+    let bmi: f64 = calculate_bmi(weight_kg, height_cm);
+    println!("You BMI is: {:.3}",bmi);
 
 }
-
 // functions returning values
 fn add(a: i32, b: i32) -> i32 {
     a + b
 }
-
-
 
 // IMPORTANT
 // Any variable that is declared outside of the main variable
@@ -47,24 +47,19 @@ fn add(a: i32, b: i32) -> i32 {
     //code
 
 // };
-
-
 fn hello_world(){
     println!("Hello, Rust!")
 }
-
 //you can insert input values
 fn tall_height(height: u32){
     println!("My height: {} cm", height);
 }
-
 //you can insert more than one value
 // u -> unassigned integer
 // f -> floats
 fn human_id(name: &str, age: u32, height: f32){
     println!("My name is: {}, I am {} years old, an my height is {} cm", name, age, height)
 }
-
 //Expressions and Statements
 //Expression: Anything that returns a value.
 //statements: Anything that does not return a value.
@@ -85,3 +80,12 @@ fn human_id(name: &str, age: u32, height: f32){
 // 2) Functions definitions: fn foo() {}
 // 3) Control flow  statements: if condition {code}
 // else {code}, while condition {code} etc.
+
+//--------------------------------------------------------
+// Final example
+// BMI = height(kg)/height(m)^2
+
+fn calculate_bmi(weight: f64, height: f64) -> f64 {
+    weight / (height * height)
+}
+
