@@ -1,1 +1,3 @@
-// Control flow
+fn main(){
+    println!("Control flow")
+}

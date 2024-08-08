@@ -10,8 +10,6 @@ fn main() {
 
     let x = x + 1;
     //now we old x is shadowed by new x now value is 6
-
-    let x 
       
     {
     let x = x* 2; //result is 12
